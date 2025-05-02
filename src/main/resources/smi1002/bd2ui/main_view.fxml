@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="smi1002.bd2ui.MainController">
+  <top>
+    <ToolBar>
+      <Button fx:id="btnPassagers" text="Liste des Passagers"/>
+      <Button fx:id="btnAvions" text="Liste des Avions"/>
+      <Button fx:id="btnSieges" text="Liste des Sièges disponibles"/>
+      <Button fx:id="btnVols" text="Liste des Vols"/>
+      <Button fx:id="btnReservations" text="Afficher la réservation d'un passager"/>
+<!--      <Button fx:id="btnAjouterReservation" text="➕ Ajouter une réservation"/>-->
+    </ToolBar>
+  </top>
+  <center>
+    <StackPane fx:id="tableContainer" />
+  </center>
+
+</BorderPane>
